@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="15"
+    android:background="@drawable/round_corner"
+    >
+
+    <TextView
+        android:id="@+id/tv_sura_no"
+        android:layout_width="0dp"
+        android:paddingTop="12dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="2"
+        />
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="6"-->
+        <!--android:weightSum="15">-->
+        <Button
+            android:id="@+id/tv_sura"
+            android:layout_weight="8"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+
+            android:gravity="left"
+            android:text="SURA NAME"
+            android:textAlignment="gravity"
+            android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        android:layout_gravity="center"
+        android:paddingRight="4dp"
+        >
+        <TextView
+            android:id="@+id/tv_sura_nov"
+            android:layout_width="match_parent"
+            android:paddingEnd="4dp"
+            android:paddingRight="4dp"
+            android:layout_height="wrap_content"
+            android:text="111 verses"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="12sp"/>
+        <TextView
+            android:id="@+id/lr"
+            android:layout_width="match_parent"
+            android:paddingEnd="4dp"
+            android:paddingRight="4dp"
+            android:layout_height="wrap_content"
+            android:text="111 verses"
+            android:textColor="#4a148c"
+            android:layout_gravity="center_vertical"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:gravity="right"
+            android:textSize="12sp"/>
+    </LinearLayout>
+    <!--</LinearLayout>-->
+
+</LinearLayout>
+</FrameLayout>

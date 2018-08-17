@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    <EditText
+        android:id="@+id/go_sura"
+        android:layout_margin="12dp"
+        android:hint="Sura No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="4dp"
+        android:inputType="number">
+
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/go_verse"
+        android:layout_margin="12dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="4dp"
+        android:hint="Verse No"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number">
+    </EditText>
+</LinearLayout>
+
+        <Button
+            android:id="@+id/go"
+            android:layout_margin="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="GO" />
+
+
+
+</LinearLayout>

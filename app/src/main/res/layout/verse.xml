@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content" android:id="@+id/root"
+android:padding="8dp"
+android:background="@drawable/selector_verse">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:padding="4dp"
+        android:id="@+id/verse"
+        android:background="@drawable/round_corner"
+
+        >
+    <TextView
+        android:id="@+id/tv_verse_no"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        />
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="7"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/rv"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorRvBack">
+        <TextView
+            android:id="@+id/tv_verse_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:paddingBottom="3dp"
+            style="@style/TextAppearance.AppCompat.Title"
+
+
+            />
+        <!--android:text="بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ ﴿۱﴾  "-->
+
+        <TextView
+            android:id="@+id/tv_verse_2"
+            android:layout_below="@id/tv_verse_1"
+            android:paddingTop="3dp"
+            android:paddingBottom="8dp"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+        <!--style="@style/TextAppearance.AppCompat.Title"-->
+        <!--android:fontFamily="serif-monospace"-->
+    </LinearLayout>
+</FrameLayout>

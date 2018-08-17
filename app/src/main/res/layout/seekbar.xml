@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/BlueAccent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/size"-->
+
+        <!--android:textSize="18sp"-->
+        <!--android:paddingTop="8dp"-->
+        <!--android:paddingRight="8dp"-->
+        <!--android:paddingLeft="8dp"-->
+        <!--android:paddingBottom="2dp"-->
+        <!--android:fontFamily="sans-serif-smallcaps"-->
+        <!--style="@style/TextAppearance.AppCompat.Title"-->
+        <!--android:text="Size"-->
+        <!--/>-->
+    <android.support.v7.widget.AppCompatSeekBar
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/seekbar"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HOLY QURAN</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="sura">CHAPTER</string>
+    <string name="show">Show</string>
+    <string name="search">Search</string>
+    <string name="Goto">Goto</string>
+    <string name="ara_ts">Arabic Text Size</string>
+    <string name="trans_ts">Translation Text Size</string>
+    <string name="preview">Preview</string>
+    <string name="lr">Last Read</string>
+    <string name="juz">Part</string>
+    <string name="moreinfo">More Info</string>
+    <string name="verses">Verses</string>
+    <string name="arab">Arabic</string>
+    <string name="tam_trans">Tamil Translation</string>
+    <string name="eng_trans">English Translation</string>
+
+
+
+    <!-- Strings related to Settings -->
+    <!-- Example General settings -->
+
+
+
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_lang" translatable="false">arab,tam</string>
+    <string name="pref_app_lang" translatable="false">eng</string>
+    <string name="pref_arab_size" translatable="false">arab_size</string>
+    <string name="pref_trans_size" translatable="false">trans_size</string>
+    <string name="pref_last_read_sura" translatable="false">8</string>
+    <string name="lang">Application Language</string>
+
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:id="@+id/root"
+    android:padding="8dp"
+    android:background="@drawable/selector_verse">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:background="@color/colorRvBack"
+
+        >
+        <TextView
+            android:id="@+id/search_verseno"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/rv"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorRvBack">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/search_surano"
+                android:text="@string/sura"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/search_chapno"
+                android:layout_alignBaseline="@+id/search_surano"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="right"
+                android:text="@string/juz"/>
+            <TextView
+                android:id="@+id/search_verse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/search_surano"
+                android:textSize="21sp"
+                android:paddingBottom="3dp"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="monospace"
+                android:text="Verse"
+                />
+
+
+
+
+        </RelativeLayout>
+
+        <!--style="@style/TextAppearance.AppCompat.Title"-->
+        <!--android:fontFamily="serif-monospace"-->
+    </LinearLayout>
+</FrameLayout>

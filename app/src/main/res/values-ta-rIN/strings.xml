@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">திருக்குர்ஆன்</string>
+    <string name="title_activity_settings">அமைப்புகள்</string>
+    <string name="sura">அதிகாரம்</string>
+    <string name="show">காண்பி</string>
+    <string name="ara_ts">அரபு எழுத்து அளவு</string>
+    <string name="trans_ts">மொழிபெயர்ப்பின்   எழுத்து அளவு</string>
+    <string name="preview">முற்காட்சி</string>
+    <string name="juz">பாகம்</string>
+    <string name="moreinfo">மேலும் தகவல்</string>
+    <string name="lr">கடைசி வாசிப்பு</string>
+    <string name="arab">அரபு</string>
+    <string name="tam_trans">தமிழ் மொழிபெயர்ப்பு</string>
+    <string name="eng_trans">ஆங்கில மொழிபெயர்ப்பு</string>
+    <string name="verses">வசனங்கள்</string>
+    <string name="search">தேடல்</string>
+    <string name="Goto">Goto</string>
+    <string name="lang">Application Language</string>
+</resources>

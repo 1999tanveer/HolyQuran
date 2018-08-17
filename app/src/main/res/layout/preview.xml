@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<TextView-->
+        <!--android:id="@+id/preview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Preview"-->
+        <!--android:textSize="18dp"-->
+        <!--android:padding="8dp"-->
+        <!--android:fontFamily="sans-serif-smallcaps"-->
+        <!--style="@style/TextAppearance.AppCompat.Title"-->
+        <!--/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8"
+        android:layout_margin="8dp"
+        android:background="@color/colorRvBack">
+        <TextView
+            android:id="@+id/tv_verse_no"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+
+            />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorRvBack">
+            <TextView
+                android:id="@+id/tv_verse_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:paddingBottom="6dp"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:fontFamily="monospace"
+                android:text="Lang 1"
+                />
+            <!--android:text="بِسۡمِ اللّٰہِ الرَّحۡمٰنِ الرَّحِیۡمِ ﴿۱﴾  "-->
+
+            <TextView
+                android:id="@+id/tv_verse_2"
+                android:layout_below="@id/tv_verse_1"
+                android:paddingBottom="8dp"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Lang 2"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <!--style="@style/TextAppearance.AppCompat.Title"-->
+        <!--android:fontFamily="serif-monospace"-->
+    </LinearLayout>
+</LinearLayout>

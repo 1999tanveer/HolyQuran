@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/colorRvBack"/>
+
+    <item>
+        <bitmap
+            android:gravity="fill"
+            android:src="@drawable/img_20180707_wa0002"
+            />
+    </item>
+
+</layer-list>

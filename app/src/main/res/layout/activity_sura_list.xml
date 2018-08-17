@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/BlueAccent"
+
+    android:background="#fffde7">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv_title_sura"
+        android:gravity="center"
+        android:text="@string/sura"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:padding="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:scrollbarStyle="insideOverlay"
+        android:layout_below="@+id/rv_title_sura"
+        android:id="@+id/rv_sura"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</RelativeLayout>
